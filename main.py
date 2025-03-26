@@ -9,7 +9,7 @@ from dash import Input, Output
 df= sns.load_dataset('tips')
 
 app = dash.Dash(__name__)
-app.server
+server = app.server
 
 app.layout = html.Div([
         html.H1('Tips Dataset Analysis'),
